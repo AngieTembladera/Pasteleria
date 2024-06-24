@@ -1,0 +1,44 @@
+.contact-section {
+  padding: 50px 0;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 2px;
+  background-color: #333;
+  margin: 0 auto 20px auto;
+}
+
+.text-center {
+  margin-bottom: 20px;
+}
+
+.contact-form .form-control {
+  border: 2px solid #333;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-form .btn {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.contact-form .btn:hover {
+  background-color: #555;
+  border-color: #555;
+}
+.filas{
+  display: flex;
+  justify-content: space-between;
+}
+.filas> div{
+  width: 32%;
+}

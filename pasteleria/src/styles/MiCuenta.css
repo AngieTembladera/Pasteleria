@@ -1,0 +1,31 @@
+.container {
+  max-width: 960px;
+}
+
+.list-group-item.active {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text a {
+  color: #6f42c1;
+  text-decoration: none;
+}
+
+.card-text a:hover {
+  text-decoration: underline;
+}
+.cuenta{
+  padding-bottom: 6vh;
+}
+.Hola{
+  box-shadow: 3px 3px 5px black;
+}

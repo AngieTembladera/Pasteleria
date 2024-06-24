@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  color: #333;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+button {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+
+button:hover {
+  background-color: #563d7c;
+  border-color: #563d7c;
+}
+
+/* estilos de la imagen */
+
+.caja-img> img{
+  width: 36vw;
+}
+

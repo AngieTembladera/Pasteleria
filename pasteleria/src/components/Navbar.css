@@ -1,0 +1,65 @@
+
+a{
+  color: white;
+  font-family:serif;
+}
+nav{
+  margin-top: 10vh;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  float: right;
+}
+a{
+  text-decoration: none;
+}
+li a{
+  padding: 10px 20px;
+}
+.Logo{
+  float: left;
+}
+img:not(.Fondo){
+  width: 10vw;
+}
+.subir{
+  position: relative;
+  bottom: 4vh;
+}
+.Container{
+  display: block;
+  width: auto;
+  height: auto;
+  background-color: #a24633ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cake{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 20vw;
+  margin-bottom: 5vh;
+}
+.cake img {
+  width: 95%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen ocupe todo el espacio del contenedor sin distorsionarse */
+  display: block; /* Elimina el espacio en blanco debajo de la imagen */
+}
+.cake>p{
+  position: absolute;
+  padding-top:  8vh;
+  font-size: 5rem;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px white;
+  color: black;
+}
+.nosotros{
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  background: white;
+}

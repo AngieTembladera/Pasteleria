@@ -1,0 +1,39 @@
+H1{
+  font-size: 3rem;
+  color: black;
+}
+.pedidas{
+  background: #c7ac83ff;
+}
+.pasteles {
+  padding-bottom: 2vw;
+  display: grid;
+  grid-template-columns: repeat(2, 45%); /* Define 2 columnas con un ancho del 40% cada una */
+  justify-content: space-evenly; /* Distribuye el espacio restante de manera uniforme */
+  gap: 2vh; /* Espacio entre los elementos de la cuadrícula */
+}
+
+.pasteles>div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: solid white;
+  margin: 0vw 3vw;
+}
+.pasteles>div> img{
+  width: 100%;
+}
+.pasteles>div>p{
+  text-align: center;
+}
+h2{
+  margin-top: 2vh;
+}
+/* estilo para el parrafo de SOBRE NOSOTROS */
+.nosotros{
+  padding: 0vw 11vw;
+}
+.subrayado{
+  margin-bottom: 5vh;
+}

@@ -1,0 +1,153 @@
+.about-valeria {
+  background-image: url('https://via.placeholder.com/1920x1080'); /* Reemplaza con tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  background-image: url("../assets/img/marco-floreado.png");
+  padding: 4vw;
+  border-radius: 10px;
+}
+
+.about-valeria .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f8d7da;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.bakery-section .container {
+  max-width: 1140px;
+}
+
+.bakery-section h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.bakery-section p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+
+.testimonials-section {
+  background-color: #c2a878;
+  padding: 50px 0;
+  color: #333;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 60px;
+  height: 2px;
+  background-color: #333;
+  margin: 0 auto 20px auto;
+}
+
+.testimonials-section h2 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.testimonial h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.img-repostera{
+  width:3 37%;
+}
+.img-repostera>img{
+  width: 100%;
+}
+/* estilos del carrousel */
+/* custom.css */
+.carousel {
+  background-color: #d2b17e; /* Fondo del carrusel */
+  color: #333; /* Color del texto */
+  padding: 2rem 0; /* Padding para el contenido del carrusel */
+}
+
+.testimonial {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile span {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+img{
+  width: 40%;
+}
+.titulo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3vw;
+}
+.color{
+  color: red;
+}
+.testimonial> p{
+  margin-bottom: 2vw;
+}

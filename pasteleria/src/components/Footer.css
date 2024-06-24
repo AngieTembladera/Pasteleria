@@ -1,0 +1,62 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  margin: 20px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer p, .footer ul, .footer a {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  margin-right: 10px;
+  color: white;
+  font-size: 1.2em;
+}
+
+.cake-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cake-item img {
+  width: 10vw;
+  height: 15vh;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
